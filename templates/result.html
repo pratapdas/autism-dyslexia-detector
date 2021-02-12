@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Autism Checker</title>
+<h1 align='center'>Test Results</h1>
+<form align='center' method=get enctype=multipart/form-data>
+	<br>
+	<br>
+	<img src={{img_path}} name=image>
+	<h3>Prediction: {{prediction}}</h3> 
+	<br>
+	<br><b>
+	Probability of autistic: {{prob_yes}}<br>
+	Probability of non-autistic: {{prob_no}}</b><br><br>
+	<input type=submit value="Test another image">
+</form>
